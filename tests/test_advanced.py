@@ -1,8 +1,7 @@
 import pytest
 
-from .conftest import sample
-
+from conftest import Sample
 
 def test_sample_here():
-    test = sample.core.CoreSample("Test")
+    test = Sample("Test")
     print(test)
