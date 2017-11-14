@@ -1,0 +1,2 @@
+
+autoimport = Sample("test")
